@@ -96,6 +96,20 @@ will generate the HTML files corresponding to the repository located in
 `~/myrepo` and the remote named `default` in the local OPAM installation.
 Resulting files will be located in the `website` directory.
 
+### Statistic calculation
+
+Several statistics are calculated and rendered on the website.
+
+- Packages: Number of unique package (name and version) in the repository
+- Last {week,month) users : Number of unique users
+- Last {week,month) package installations : Number of all package installation, without filter
+- Last {week,month) users : Number of all repository updates
+- New packages : 
+- Most downloaded packages :
+- sort by popularity : 
+
+
+
 ### TODO
 
 - More complex news system (one page per news, Markdown...)
